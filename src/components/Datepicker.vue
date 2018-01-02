@@ -15,7 +15,7 @@
         :name="name"
         :ref="refName"
         :id="id"
-        @click="showCalendar"
+        @click.prev="showCalendar"
         :value="formattedValue"
         :open-date="openDate"
         :placeholder="placeholder"
